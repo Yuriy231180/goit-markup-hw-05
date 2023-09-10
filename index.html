@@ -505,7 +505,13 @@
         <form class="review-form">
           <div class="review-form-field-wrapper">
             <label for="user-name" class="review-form-field-label">Name</label>
-            <input type="text" class="review-form-input" id="user-name" />
+            <input
+              type="text"
+              class="review-form-input"
+              id="user-name"
+              name="user-name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇ'єЄ]+"
+            />
             <svg
               class="review-form-field-icon"
               width="18"
@@ -519,7 +525,12 @@
             <label for="user-phonenumber" class="review-form-field-label"
               >Phone</label
             >
-            <input type="tel" class="review-form-input" id="user-phonenumber" />
+            <input
+              type="tel"
+              class="review-form-input"
+              id="user-phonenumber"
+              name="user-phonenumber"
+            />
             <svg
               class="review-form-field-icon"
               width="18"
@@ -533,7 +544,12 @@
             <label for="user-email" class="review-form-field-label"
               >Email</label
             >
-            <input type="email" class="review-form-input" id="user-email" />
+            <input
+              type="email"
+              class="review-form-input"
+              id="user-email"
+              name="user-email"
+            />
             <svg
               class="review-form-field-icon"
               width="18"
